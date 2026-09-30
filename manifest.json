@@ -1,0 +1,20 @@
+{
+  "runtime": "canvas-v1",
+  "name": "Solid",
+  "description": "Une seule couleur, parfaitement uniforme. Le fond calme de votre composition.",
+  "version": "0.1.0",
+  "entry": "dist/assets/addon.js",
+  "thumbnail": "assets/thumbnail.png",
+  "deviceSettingsVersion": "1",
+  "ui": {
+    "pointerEvents": "none"
+  },
+  "settings": [
+    {
+      "id": "color",
+      "type": "color",
+      "label": "Couleur",
+      "default": "#111719"
+    }
+  ]
+}
